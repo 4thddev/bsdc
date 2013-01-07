@@ -9,10 +9,9 @@ Template:       boilerplate
 Version:        1.0
 */
 
-@import url( ../boilerplate/style.css );
-@import url( css/default/base.css );
-@import url( css/default/flexslider.css );
-@import url( css/default/layout.css );
+@import url( css/base.css );
+@import url( css/flexslider.css );
+@import url( css/layout.css );
 @import url( css/skeleton.min.css );
 @import url( css/jquery.countdown.css );
 
