@@ -1,11 +1,18 @@
 /*
 Theme Name:     BSDC
 Theme URI:      http://www.bigskydevcon.org/
-Description:    Custom WordPress theme for Big Sky Dev Con
+Description:    Custom WordPress theme for Big Sky Dev Con, based on the Orcur theme purchased
+                from ThemeForest by 4th Dimension Development for BSDC.
 Author:         Wes Hunt
 Author URI:     http://www.4thddev.com/
 Template:       boilerplate
 Version:        1.0
 */
 
-@import url(../boilerplate/style.css);
+@import url( ../boilerplate/style.css );
+@import url( css/default/base.css );
+@import url( css/default/flexslider.css );
+@import url( css/default/layout.css );
+@import url( css/skeleton.min.css );
+@import url( css/jquery.countdown.css );
+
