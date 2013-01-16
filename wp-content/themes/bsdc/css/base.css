@@ -136,7 +136,7 @@ code {
 /* Headings */
 
 .heading {
-	background: url('../../images/heading-bg-light.png') left repeat-x;
+	background: url('../images/heading-bg-light.png') left repeat-x;
 	font-size: 18px;
 	font-style: italic;
 	font-weight: normal;
@@ -220,19 +220,19 @@ code {
 		.check li {
 			margin-bottom: 20px;
 			padding-left: 24px;
-			background: url("../../images/icon-check.png") no-repeat scroll 0px 5px transparent;
+			background: url("../images/icon-check.png") no-repeat scroll 0px 5px transparent;
 		}
 		
 		.user li {
 			margin-bottom: 20px;
 			padding-left: 24px;
-			background: url("../../images/icon-user.png") no-repeat scroll 0px 5px transparent;
+			background: url("../images/icon-user.png") no-repeat scroll 0px 5px transparent;
 		}
 		
 		.calendar li {
 			margin-bottom: 20px;
 			padding-left: 28px;
-			background: url("../../images/icon-calendar.png") no-repeat scroll 0px 5px transparent;
+			background: url("../images/icon-calendar.png") no-repeat scroll 0px 5px transparent;
 		}
 	
 /* #Images
@@ -424,8 +424,8 @@ a.button.orange,button.orange,input[type="submit"].orange,input[type="reset"].or
 	
 	/* Clear/dividers */
 	.clearDivider {	clear:both;	display:block; overflow:hidden;	height:1px;	margin: 0px auto 30px; padding-top: 30px; }
-	.dotDivider { clear:both; display:block; overflow:hidden; height:4px; margin: 0px auto 30px; background: url('../../images/border-horizontal-dots.gif') repeat-x; border-top: 30px solid transparent; }
-	.lineDivider { clear:both; display:block; overflow:hidden; height:4px; margin: 0px auto 30px; background: url('../../images/line-shadowed.gif') repeat-x; border-top: 30px solid transparent; }
+	.dotDivider { clear:both; display:block; overflow:hidden; height:4px; margin: 0px auto 30px; background: url('../images/border-horizontal-dots.gif') repeat-x; border-top: 30px solid transparent; }
+	.lineDivider { clear:both; display:block; overflow:hidden; height:4px; margin: 0px auto 30px; background: url('../images/line-shadowed.gif') repeat-x; border-top: 30px solid transparent; }
 	
 	/* Alerts */
 	.alert{ border-radius:5px 5px 5px 5px; height:100%; line-height:1.5; margin:10px auto; padding:15px 15px 15px 35px}
