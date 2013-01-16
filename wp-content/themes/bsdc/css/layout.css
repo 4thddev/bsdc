@@ -33,7 +33,7 @@
 	}
 
 		#logo > a {
-			background: url("../images/logo_divider.png") no-repeat scroll right top transparent;
+			background: url("../images/logo_divider.jpg") no-repeat scroll right top transparent;
 		    display: block;
 		    float: left;
 		    height: 50px;
@@ -1001,11 +1001,11 @@ ul#speakers-secondary-list {
 /* Load Web Font */
 @font-face {
     font-family: 'Prociono';
-    src: url('../fonts/Prociono-Regular-webfont.eot');
-    src: url('../fonts/Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Prociono-Regular-webfont.woff') format('woff'),
-         url('../fonts/Prociono-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Prociono-Regular-webfont.svg#Prociono') format('svg');
+    src: url('../fonts/prociono-regular-webfont.eot');
+    src: url('../fonts/prociono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/prociono-regular-webfont.woff') format('woff'),
+         url('../fonts/prociono-regular-webfont.ttf') format('truetype'),
+         url('../fonts/prociono-regular-webfont.svg#Prociono') format('svg');
     font-weight: normal;
     font-style: normal;
 

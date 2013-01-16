@@ -26,9 +26,10 @@
 wp_title( '|', true, 'right' );
 ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
+   
         <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
         <noscript>
-        <link rel="stylesheet" href="<?php echo get_bloginfo( 'wpurl' ) ?>/css/noscript.css" />
+            <link rel="stylesheet" href="<?php echo get_bloginfo( 'wpurl' ) ?>/css/noscript.css" />
         </noscript>
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
@@ -58,29 +59,10 @@ wp_title( '|', true, 'right' );
             <header class="container container-twelve">
                 <div id="logo" class="five columns">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                        <?php
-                        // Check to see if the header image has been removed
-                        $header_image = get_header_image();
-                        if( !empty( $header_image ) ) :
-                            ?>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <?php
-                                // The header image
-                                // Check if this is a post or page, if it has a thumbnail, and if it's a big one
-                                if( is_singular() && has_post_thumbnail( $post->ID ) &&
-                                        ( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), array( HEADER_IMAGE_WIDTH, HEADER_IMAGE_WIDTH ) ) ) &&
-                                        $image[1] >= HEADER_IMAGE_WIDTH ) :
-                                    echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
-                                else :
-                                    ?>
-                                    <img src="<?php header_image(); ?>" width="70" height="50" alt="Big Sky Dev Con 2013" />
-                                <?php endif; // end check for featured image or standard header
-                                ?>
-                            </a>
-                        <?php endif; // end check for removed header image   ?>
+                        <img src="<?php echo get_bloginfo( 'wpurl' ) ?>/wp-content/themes/bsdc/images/big-sky-dev-con.png" alt="Big Sky Dev Con" />
                     </a>
                     <span id="tagline"> <?php bloginfo( 'description' ); ?></span>
-                    <a href="#" id="mobile-menu"><img src="<?php echo get_bloginfo( 'wpurl' ) ?>/images/menu-mobile.png" alt="menu-mobile" width="38" height="25" /></a>
+                    <a href="#" id="mobile-menu"><img src="<?php echo get_bloginfo( 'wpurl' ) ?>/wp-content/themes/bsdc/images/menu-mobile.png" alt="menu-mobile" width="38" height="25" /></a>
                     <div id="mobileNav">
                         <?php wp_nav_menu( array( 'menu' => 'main nav', 'container' => false, 'theme_location' => 'primary' ) ); ?>
                     </div><!-- #mobileNav -->
